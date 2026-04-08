@@ -172,6 +172,18 @@ chenze-skill/
 
 ---
 
+## 参考项目
+
+陈泽.skill 的诞生站在这些前辈的肩膀上：
+
+| 项目 | 说明 |
+|------|------|
+| [colleague-skill](https://github.com/titanwings/colleague-skill) | 双轨人格蒸馏架构，本 Skill 的技术根基 |
+| [Anthropic AgentSkills](https://docs.anthropic.com/en/docs/claude-code/skills) | Claude Code Skill 标准格式 |
+| [tong-jincheng-skill](https://github.com/hotcoffeeshake/tong-jincheng-skill) | 本 Skill README 排版参考 |
+
+---
+
 ## 关于陈泽
 
 陈泽，斗鱼主播，粉丝称「北境陈泽」。直播风格：**真实、直接、不装、抽象**。
