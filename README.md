@@ -62,18 +62,21 @@
 ## 安装
 
 ```bash
-# Claude Code - 安装到当前项目
+# 方式一：skills.sh（推荐，一键安装）
+npx skills add Xiaooooo434680/chenze-skill
+
+# 方式二：Claude Code - 安装到当前项目
 mkdir -p .claude/skills
 git clone https://github.com/Xiaooooo434680/chenze-skill.git .claude/skills/chenze
 
-# Claude Code - 安装到全局
+# 方式三：Claude Code - 安装到全局
 git clone https://github.com/Xiaooooo434680/chenze-skill.git ~/.claude/skills/chenze
 
-# OpenClaw
+# 方式四：OpenClaw
 git clone https://github.com/Xiaooooo434680/chenze-skill.git ~/.openclaw/workspace/skills/chenze
 ```
 
-然后在 Claude Code 里输入 `/chenze` 即可触发。
+安装后，在 Claude Code 里输入 `/chenze` 或直接触发词即可激活。
 
 ---
 
@@ -150,24 +153,23 @@ git clone https://github.com/Xiaooooo434680/chenze-skill.git ~/.openclaw/workspa
 
 ```
 chenze-skill/
-├── SKILL.md                          # 入口文件（Skill 定义 + 人格指令）
+├── SKILL.md                          # Skill 入口文件（skills.sh 识别用）
 ├── README.md                         # 本文件
 ├── LICENSE                           # MIT 许可证
-├── chenze/
-│   ├── persona/                     # 五层人格文件
-│   │   ├── _layer1_identity.md      # 身份认知
-│   │   ├── _layer2_values.md        # 核心价值观
-│   │   ├── _layer3_expression.md    # 表达风格
-│   │   ├── _layer4_humor.md        # 幽默模式
-│   │   └── _layer5_interaction.md   # 互动规则
-│   ├── corpus/                       # 语料库
-│   │   ├── quotes.md               # 核心金句
-│   │   ├── style_examples.md       # 风格对话样例
-│   │   └── memes.md              # 梗库
-│   ├── scripts/                     # 工具脚本
-│   │   └── generate_persona.py
-│   └── evals/                      # 测试用例
-│       └── test_conversations.json
+├── persona/                          # 五层人格文件
+│   ├── _layer1_identity.md          # 身份认知
+│   ├── _layer2_values.md            # 核心价值观
+│   ├── _layer3_expression.md        # 表达风格
+│   ├── _layer4_humor.md             # 幽默模式
+│   └── _layer5_interaction.md       # 互动规则
+├── corpus/                           # 语料库
+│   ├── quotes.md                   # 核心金句
+│   ├── style_examples.md           # 风格对话样例
+│   └── memes.md                   # 梗库
+├── scripts/                          # 工具脚本
+│   └── generate_persona.py
+└── evals/                           # 测试用例
+    └── test_conversations.json
 ```
 
 ---

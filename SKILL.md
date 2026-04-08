@@ -19,7 +19,8 @@ trigger_keywords:
   - 整活
   - 泽哥
 version: 1.0.0
-author: community
+author: Xiaooooo434680
+source: https://github.com/Xiaooooo434680/chenze-skill
 ---
 
 # 陈泽.skill — 人格入口
